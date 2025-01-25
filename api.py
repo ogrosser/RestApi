@@ -1,8 +1,3 @@
-#Goal: Use REST Api for mygene and ensembl databases to get the genomic sequence of your chosen gene. Said gene should exist
-#in homo sapiens. Use biopython to translate the longest open reading frame. Then use ensembl to make a list of all the species
-#that have homologous genes to said chosen gene.
-#Author: Ondine Grosser
-
 import requests #Allows for interaction with REST Api
 import re #Allows for use of regular expression
 from Bio.Seq import Seq #Allows for use of Seq class from BioPython
